@@ -17,6 +17,7 @@ See Phergie documentation for more information on
 
 ```php
 // dependency
+new \Phergie\Irc\Plugin\React\Command\Plugin,
 new \WyriHaximus\Phergie\Plugin\Dns\Plugin,
 new \WyriHaximus\Phergie\Plugin\Http\Plugin(array('dnsResolverEvent' => 'dns.resolver')),
 new \hashworks\Phergie\Plugin\xREL\Plugin(array(
