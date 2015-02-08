@@ -42,6 +42,7 @@ class Plugin extends AbstractPlugin {
 
 		if ($this->parseAllMessages) {
 			$events['irc.received.privmsg'] = 'handleMessage';
+			$events['irc.received.notice'] = 'handleMessage';
 		}
 
 		return $events;
