@@ -2,9 +2,9 @@
     "name": "hashworks/phergie-xrel-plugin",
     "description": "Phergie plugin to access the xREL.to API.",
     "keywords": [ "phergie", "irc", "bot", "plugin", "xREL", "nfo" ],
-    "license": "GNU GPL v3.0",
+    "license": "GPL-3.0-or-later",
     "support": {
-        "email": "admin@hashworks.net",
+        "email": "mail@hashworks.net",
         "irc": "irc://irc.freenode.net/phergie",
         "issues": "https://github.com/hashworks/Phergie-xREL-Plugin/issues",
         "source": "https://github.com/hashworks/Phergie-xREL-Plugin"
